@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Cinzel+Decorative&family=Merienda+One&family=Niconne&family=Tangerine&family=Zen+Tokyo+Zoo&display=swap');
+#navbar
+{
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95.5%;
+  background-image: url("https://cdn.wallpapersafari.com/34/15/usxQvS.jpg");
+  border-style: solid;
+  border-width: 30px;
+  border-bottom: none;
+}
+ul
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav-list a
+{
+  display: block;
+  font-size: 1.6rem;
+  padding: 1px 10px 1px 10px;
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+}
+#navbar a:hover
+{
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 1.65rem;
+  background: red;
+}
+#welcome-section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 97.2%;
+  height: 750px;
+  background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  border-style: solid;
+  border-top: none;
+  margin-top: -3rem;
+  border-bottom: none;
+  border-width: 30px;
+  margin-left: -1rem;
+}
+.welcome h1
+{
+  text-align: center;
+  font-weight: 550;
+  font-size: 8rem;
+  color: white;
+  margin-bottom: 30px;
+  font-family: Zen Tokyo Zoo;
+}
+.welcome h2
+{
+  text-align: center;
+  font-weight: 550;
+  font-size: 4rem;
+  color: white;
+  margin-top: 0px;
+  font-family: Architects Daughter;
+}
+.welcome p
+{
+  color: white;
+  font-size: 2rem;
+  margin-top: -1.5rem;
+  font-family: Merienda;
+}
+li
+{
+  display: inline-block;
+}
+@media (max-width: 30.625em)
+.projects-section 
+{
+    padding: 6rem 1rem;
+}
+#projects
+{ 
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-width: 30px;
+  width: 96.661%;
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2020/08/color-confusions-abstract_1596925789.jpg");
+  margin-top: -6rem;
+  margin-left: -.5rem;
+}
+.project-sections
+{
+  padding: 10rem 2rem;
+}
+#projects h1
+{
+  font-size: 6rem;
+  padding-top: 8rem;
+  font-family: Niconne;
+  color: white;
+  text-align: center;
+}
+.project_image
+{
+  display: inline;
+  height: 100%;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: white;
+  width: 70%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 4px;
+}
+.projects-show a
+{
+  display: inline-block;
+  height: 100%;
+  width: 48%;
+  margin-left: 20px;
+}
+.project_title1
+{
+/*   display: block; */
+  font-size: 2.5rem;
+  padding: .5rem 0.5rem;
+  color: white;
+  font-family: 'Acme', sans-serif;
+  margin-left: 12rem;
+  margin-top: 4px;
+  margin-bottom: 5rem;
+  text-decoration: underline;
+}
+.project_title2
+{
+/*   display: block; */
+  font-family: 'Acme', sans-serif;
+  font-size: 2.5rem;
+  padding: .5rem 0.5rem;
+  color: white;
+  margin-left: 13rem;
+  margin-top: 4px;
+  text-decoration: underline;
+}
+.project_title3
+{
+/*   display: block; */
+  font-size: 2.5rem;
+  padding: .5rem 0.5rem;
+  color: white;
+  font-family: 'Acme', sans-serif;
+  margin-left: 8rem;
+  margin-top: 4px;
+  text-decoration: underline;
+}
+.project_title4
+{
+/*   display: block; */
+  font-size: 2.5rem;
+  font-family: 'Acme', sans-serif;
+  padding: .5rem 0.5rem;
+  color: white;
+  margin-left: 3.5rem;
+  margin-top: 4px;
+  text-decoration: underline;
+}
+#contact
+{
+  border-style: solid;
+  border-top: none;
+  border-width: 30px;
+  width: 96.6%;
+  background-image: url("https://bestwallpapers.in/wp-content/uploads/2018/07/wolf-howling-to-moon-minimal-4k-wallpaper-1920x1080.jpg");
+  margin-left: -.5rem;
+  margin-top: -5rem;
+  margin-bottom: -.5rem;
+  text-align: center;
+} 
+.header_contact h3
+{
+  font-size: 5rem;
+  font-family:'Cinzel Decorative', cursive;
+  padding-top: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 2px;
+  color: white;
+}
+.header_contact p
+{
+  font-size: 4rem;
+  font-family: Tangerine;
+  font-weight: bold;
+  margin-top: 4rem;
+  color: white;
+}
+.contact_links
+{
+  display: inline-block;
+  padding-bottom: 1rem;
+  padding-top: 4rem;
+}
+.contact_links a
+{
+  margin-left: 2rem;
+  color: #ffff00;
+  text-decoration: none;
+  font-size: 3rem;
+}
+.contact_links a:hover
+{
+  background-image: url("https://static-01.daraz.com.np/p/ab7dff71ff14c2b8f910924d335e6c72.jpg");
+  color: white;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+  border-width: 5px;
+  padding: 1px 1px 1px 3px;
+}
